@@ -1,0 +1,125 @@
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+.icono{
+    width: 200px;
+    height: 200px
+}
+.contenedor{
+    background: rgb(66, 81, 165);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3em;
+    color: white
+}
+.container{
+    height: 300px;
+    width: 30%;
+    
+    border-radius: 15px;
+    display: grid;
+    place-content: center;
+    font-size: 1.6em;
+    box-shadow: 7px 5px 15px 2px rgba(0,0,0,0.75);
+}
+.celcius{
+    background: rgb(70, 228, 228);
+    padding: .5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.farenheit{
+    background: rgb(228, 173, 106);
+    padding: .5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.descripcion{
+    font-size: 1.3em;
+}
+
+@media(max-width: 750px){
+    .contenedor{
+      
+        flex-direction: column;
+    }
+    .container{
+        width: 70%;
+        min-height: min-content;
+        padding: 3em;
+        
+        margin-top: 3em;
+    }
+}
+
+.contenedor_viento{
+    background-image: url(/viento.jpg);
+    background-size: cover;
+    background-color: rgb(133, 186, 255);
+    background-blend-mode: multiply ;
+}
+
+.nublado{
+    background-image: url(/parcialmente-nublado.jpg);
+    background-size: cover;
+    background-color: rgb(133, 186, 255);
+    background-blend-mode: multiply ;
+}
+
+.llovizna{
+    background-image: url(/llovizna.jpg);
+    background-size: cover;
+    background-color: rgb(133, 186, 255);
+    background-blend-mode: multiply ;
+}
+.despejado{
+    background-image: url(/cielo_despejado.jpg);
+    background-size: cover;
+    background-color: rgb(133, 186, 255);
+    background-blend-mode: multiply ;
+}
+.lluvia{
+    background-image: url(/lluvia.jpg);
+    background-size: cover;
+    background-color: rgb(133, 186, 255);
+    background-blend-mode: multiply ;
+}
+.neblina{
+    background-image: url(/neblina.jpg);
+    background-size: cover;
+    background-color: rgb(133, 186, 255);
+    background-blend-mode: multiply ;
+}
+.nieve{
+    background-image: url(/nieve.jpg);
+    background-size: cover;
+    background-color: rgb(133, 186, 255);
+    background-blend-mode: multiply ;
+}
+.rocio{
+    background-image: url(/rocio.jpg);
+    background-size: cover;
+    background-color: rgb(133, 186, 255);
+    background-blend-mode: multiply ;
+}
+.tormenta{
+    background-image: url(/tormenta-electrica.jpg);
+    background-size: cover;
+    background-color: rgb(133, 186, 255);
+    background-blend-mode: multiply ;
+}
+
+.contenedor_ubicacion{
+    background: url(/ubicacion.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
